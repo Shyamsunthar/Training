@@ -179,6 +179,8 @@ export class NotesListComponent implements OnInit {
        }
     })
 
+
+    
     this.filteredNotes = this.filteredNotes.sort((a: Note, b: Note) => {
       let aId = this.notesService.getNoteId(a);
       let bId = this.notesService.getNoteId(b);
